@@ -1,0 +1,7 @@
+<div class="bg-black p-16">
+  <div class="grid grid-cols-3 gap-5">
+    <div *ngFor="let product of products.products" class="flex justify-center items-center">
+      <app-product-card [product]="product"></app-product-card>
+    </div>
+  </div>
+</div>
